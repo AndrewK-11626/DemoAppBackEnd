@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sharing_graph"
+    app:startDestination="@id/fragment_list_sharing"
+    >
+    <fragment
+        android:id="@+id/fragment_list_sharing"
+        android:name="com.example.demoapp.ui.sharing.SharingFragment"
+        tools:layout="@layout/fragment_sharing">
+        <action
+            android:id="@+id/nav_list_to_add_sharing"
+            app:destination="@+id/fragment_add_sharing"/>
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_add_sharing"
+        android:name="com.example.demoapp.sharing.AddSharingFragment"
+        tools:layout="@layout/fragment_add_sharing"/>
+</navigation>

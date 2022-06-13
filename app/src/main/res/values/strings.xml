@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="no_0812345678">No: 0812345678</string>
+    <string name="location_jl_sadar_raya_no_01_jakarta_selatan">Location: Jl. Sadar Raya No 01 \nJakarta Selatan</string>
+    <string name="buah_segar">Buah Segar</string>
+    <string name="rujak_buah">Rujak Buah</string>
+    <string name="potongan_buah_segar">Potongan Buah Segar</string>
+    <string name="shop">Shop</string>
+    <string name="title_donate">Donate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_shop">Shop</string>
+    <string name="timeline_sharing">Timeline Sharing</string>
+    <string name="nama">Nama</string>
+    <string name="description">Deskripsi</string>
+    <string name="item_name">Nama Item</string>
+    <string name="add_item_name">Nama Item</string>
+    <string name="add_desc">Deskripsi</string>
+    <string name="gambar_item">Gambar Item</string>
+    <string name="from_gal">Galeri</string>
+    <string name="upload">Upload</string>
+    <string name="alamat_pengambilan">Alamat</string>
+    <string name="masa_kadaluarsa">Masa Kadaluarsa</string>
+    <string name="add_address">Alamat Pengambilan</string>
+    <string name="add_contact">Contact</string>
+    <string name="contact">Contact</string>
+    <string name="add_expire">Masa Kadaluarsa</string>
+    <string name="title_Sharing">Sharing</string>
+    <string name="eric">Eric</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email_tidak_valid">Email Tidak Valid</string>
+    <string name="password_tidak_valid">Password Invalid</string>
+    <string name="error_input_email">Error Input Email</string>
+    <string name="error_input_password">Error Input Password</string>
+    <string name="error_name">Error Name</string>
+    <string name="error_email">Error Email</string>
+    <string name="error_password">Error Password</string>
+    <string name="error_occur">Something went wrong, please try again later</string>
+    <string name="error_token">Something went wrong, user token not found</string>
+    <string name="error_null_file">File can\'t be null</string>
+</resources>

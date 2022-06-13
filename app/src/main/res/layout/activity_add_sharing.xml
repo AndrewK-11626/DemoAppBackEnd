@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".AddSharingActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_descript"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="top|start"
+        android:hint="@string/add_desc"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="6"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <ImageView
+        android:id="@+id/iv_preview"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/gambar_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_photo_24" />
+
+    <Button
+        android:id="@+id/btn_add_gallery"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:text="@string/from_gal"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/upload"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:backgroundTint="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_descript"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/et_descript"
+        app:layout_constraintStart_toStartOf="@+id/tv_ItemName" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_ItemName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="top|start"
+        android:hint="@string/add_item_name"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="6"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ItemName"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alamat_pengambilan"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/et_address"
+        app:layout_constraintStart_toStartOf="@+id/tv_contact" />
+
+    <TextView
+        android:id="@+id/tv_expire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/masa_kadaluarsa"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/et_expire"
+        app:layout_constraintStart_toStartOf="@+id/et_address" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_address"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="top|start"
+        android:hint="@string/add_address"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="6"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/et_contact"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_contact"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <TextView
+        android:id="@+id/tv_ItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/item_name"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_preview" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_contact"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="top|start"
+        android:hint="@string/add_contact"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="6"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/et_descript"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_descript"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <TextView
+        android:id="@+id/tv_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/et_contact"
+        app:layout_constraintStart_toStartOf="@+id/tv_descript" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_expire"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="top|start"
+        android:hint="@string/add_expire"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="6"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/et_address"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_address"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="483dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

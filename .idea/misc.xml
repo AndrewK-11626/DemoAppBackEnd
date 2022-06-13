@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Collage/Sem 6/capstone/Test Demo/New folder/DemoApp2/app/src/main/res/layout/activity_add_sharing.xml" value="0.10461956521739131" />
+        <entry key="..\:/Collage/Sem 6/capstone/Test Demo/New folder/DemoApp2/app/src/main/res/layout/activity_sharing.xml" value="0.1265625" />
+        <entry key="..\:/Collage/Sem 6/capstone/Test Demo/New folder/DemoApp2/app/src/main/res/layout/fragment_account.xml" value="0.10461956521739131" />
+        <entry key="..\:/Collage/Sem 6/capstone/Test Demo/New folder/DemoApp2/app/src/main/res/layout/fragment_donate.xml" value="0.128" />
+        <entry key="..\:/Collage/Sem 6/capstone/Test Demo/New folder/DemoApp2/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Collage/Sem 6/capstone/Test Demo/New folder/DemoApp2/app/src/main/res/layout/fragment_sharing.xml" value="0.1" />
+        <entry key="..\:/Collage/Sem 6/capstone/Test Demo/New folder/DemoApp2/app/src/main/res/layout/fragment_shop.xml" value="0.1" />
+        <entry key="..\:/Collage/Sem 6/capstone/Test Demo/New folder/DemoApp2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1265625" />
+        <entry key="..\:/project asal/DemoApp2/app/src/main/res/layout/activity_add_sharing.xml" value="0.1" />
+        <entry key="..\:/project asal/DemoApp2/app/src/main/res/layout/activity_auth.xml" value="0.18795289855072464" />
+        <entry key="..\:/project asal/DemoApp2/app/src/main/res/layout/activity_sharing.xml" value="0.1" />
+        <entry key="..\:/project asal/DemoApp2/app/src/main/res/layout/activity_splash.xml" value="0.18659420289855072" />
+        <entry key="..\:/project asal/DemoApp2/app/src/main/res/layout/fragment_add_sharing.xml" value="0.19791666666666666" />
+        <entry key="..\:/project asal/DemoApp2/app/src/main/res/layout/fragment_info_dialog.xml" value="0.22" />
+        <entry key="..\:/project asal/DemoApp2/app/src/main/res/layout/fragment_login.xml" value="0.18840579710144928" />
+        <entry key="..\:/project asal/DemoApp2/app/src/main/res/layout/fragment_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/project asal/DemoApp2/app/src/main/res/layout/fragment_sharing.xml" value="0.19791666666666666" />
+        <entry key="..\:/project asal/DemoApp2/app/src/main/res/layout/fragment_shop.xml" value="0.17346014492753623" />
+        <entry key="..\:/project asal/DemoApp2/app/src/main/res/layout/fragment_splash.xml" value="0.18659420289855072" />
+        <entry key="..\:/project asal/DemoApp2/app/src/main/res/layout/list_sharing.xml" value="0.1793478260869565" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
